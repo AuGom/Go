@@ -20,7 +20,7 @@ func main() {
 	}
 
 	switch time.Now().Weekday() {
-	case time.Saturday, time.Sunday: //its possible to use more than one statement
+	case time.Saturday, time.Sunday: //its possible to use more than one statement, one or another may be true
 		fmt.Println("It's the weekend")
 	default:
 		fmt.Println("It's a weekday")
