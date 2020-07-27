@@ -21,4 +21,5 @@ func main() {
 
 	res = sub(3, 2)
 	fmt.Println("3-2 =", res)
+	fmt.Printf("%T", res) // %T prints the variable's type
 }
